@@ -57,7 +57,7 @@ const RingBox = () => {
             isOpen
               ? "w-60 h-32 bottom-0 rounded-3xl bg-red-950 z-10"
               : "w-60 h-12 bottom-2 rounded-xl bg-red-700 z-50"
-          }   border-2 border-white flex justify-center items-center p-1 absolute transition-all duration-300 ease-in-out mb-0.5`}
+          }   border-2 border-white border-b-4 flex justify-center items-center p-1 absolute transition-all duration-300 ease-in-out mb-0.5`}
         >
           <div
             className={`${
