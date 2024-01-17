@@ -146,7 +146,7 @@ const RingBox = () => {
       <div
         className={`${kalam.className} animate-bounce text-white text-end absolute bottom-10`}
       >
-        Click on the Ring Box👆
+        {isOpen ? '' : 'Click on the Ring Box👆'}
       </div>
     </div>
   );
